@@ -8,4 +8,3 @@
 
 #import "MappIntelligence.h"
 #import "MIWebViewTracker.h"
-#import "MIDefaultTracker.h"
