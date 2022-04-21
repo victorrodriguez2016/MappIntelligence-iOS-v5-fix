@@ -41,7 +41,7 @@ let package = Package(
             name: "MappIntelligenceiOS",
             dependencies:["MappIntelligenceSDK"],
             path: "MappIntelligenceiOS",
-            publicHeadersPath:"",
+            publicHeadersPath:".",
             cSettings: [
                 .headerSearchPath("**"),
             ],
@@ -53,7 +53,7 @@ let package = Package(
             name: "MappIntelligenceWatchOS",
             dependencies:["MappIntelligenceSDK"],
             path: "MappIntelligenceWatchOS",
-            publicHeadersPath:"",
+            publicHeadersPath:".",
             linkerSettings: [
                 .linkedFramework("WatchKit", .when(platforms:[.watchOS]))
             ]
@@ -62,7 +62,7 @@ let package = Package(
             name: "MappIntelligenceTvOS",
             dependencies:["MappIntelligenceSDK"],
             path: "MappIntelligencetvOS",
-            publicHeadersPath:"",
+            publicHeadersPath:".",
             linkerSettings: [
                 .linkedFramework("UIKit")
             ]
