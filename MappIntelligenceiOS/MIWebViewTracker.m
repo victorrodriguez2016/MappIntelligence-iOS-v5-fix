@@ -8,6 +8,8 @@
 #import "MIWebViewTracker.h"
 #ifdef SWIFT_PACKAGE
 #import "../Trackers/MIDefaultTracker.h"
+#else
+#import "MIDefaultTracker.h"
 #endif
 #import "MappIntelligence.h"
 
